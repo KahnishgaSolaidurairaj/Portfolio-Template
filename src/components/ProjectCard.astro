@@ -7,15 +7,9 @@ const { title, description, image, tags, github, demo } = Astro.props;
 
   <h3>{title}</h3>
   <p> {description} </p>
-
-  <div class="tags">
-    {tags.map(tag => <span>{tag}</span>)}
-  </div>
-
-  <div class="buttons">
-    {github && <a href={github}>GitHub</a>}
-    {demo && <a href={demo}>Demo</a>}
-  </div>
+  
+  <!-- TO DO - Task 4 adding project tags and buttons --> 
+  
 </div>
 
 <style>
