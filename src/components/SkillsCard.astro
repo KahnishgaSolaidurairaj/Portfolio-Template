@@ -1,10 +1,11 @@
 ---
 const { skills } = Astro.props;
 
+// TO DO - Task 3 adding a new section for Coursework
 const sections = [
   { title: "Languages", items: skills.languages },
   { title: "Frameworks", items: skills.frameworks },
-  { title: "Coursework", items: skills.coursework },
+
 ];
 ---
 
@@ -44,6 +45,9 @@ const sections = [
     color: white;
   }
 
-// TO DO - Task 6 glowing hover on tags
+.tags span:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(118, 58, 238, 0.64);
+  }
 
 </style>

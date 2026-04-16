@@ -28,7 +28,7 @@ export default [
     description: "Short Description of Game",
     image: "/public/images/square.avif",
     tags: ["Language", "Framework", "Topic"],
-    github: "https://link",
+    // github: "https://link",
     demo: "https://link"
   },
   {

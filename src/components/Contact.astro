@@ -2,26 +2,27 @@
 const { linkedin, github, email } = Astro.props;
 ---
 
+<!-- TO DO - Task 5 utilizing an image as a button instead of text --> 
 <div class="contact-container">
   <a href={linkedin}>
-    <img src="/icons/linkedin.png" />
+    linkedin
   </a>
 
   <a href={github}>
-    <img src="/icons/github.png"/>
+    github
   </a>
 
   <a href={`mailto:${email}`}>
-    <img src="/icons/email.png" />
+    email
   </a>
 </div>
 
 <style>
   .contact-container {
     display: flex;
-    justify-content: center;   /* centers horizontally */
+    justify-content: center;  // centers horizontally
     align-items: center;
-    gap: 1.5rem;               /* space between icons */
+    gap: 1.5rem; // space between icons
     margin-top: 1rem;
   }
 
